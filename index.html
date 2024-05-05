@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hessel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hessel</h1>
+    <nav>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <ul class="auth">  <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>MAKE YOUR EVENTS HASSLE-FREE</h2>
+      <p>Tired of your relatives asking "who catered this?" at your next event? Fear not! We're the caterers who'll have your guests saying "wow, this food is hotter than my Phupho's gossip!" We bring the real taste of Kolkata to your party, guaranteed to leave you sweating (from deliciousness, not the weather).</p>
+      </section>
+
+    <section class="reservation">  <h2>Book Your Event</h2>
+      <p>Let us handle the food for your next gathering. Fill out the form below to get a quote and reserve your date.</p>
+      <form action="reservation.php" method="post">  <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="event_date">Event Date:</label>
+        <input type="date" id="event_date" name="event_date" required>
+        <br>
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+        <br>
+        <label for="occasion">Event Occasion:</label>
+        <input type="text" id="occasion" name="occasion">  <br>
+        <button type="submit">Get a Quote</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Hessl</p>
+  </footer>
+</body>
+</html>
