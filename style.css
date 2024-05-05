@@ -2,61 +2,91 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #f1f1f1;
     padding: 20px;
-  }
+}  
+
+.logo {
+    width: 100px; /* Adjust logo width as needed */
+    height: auto;
+}
   
-  h1 {
+h1 {
     text-align: center;
-  }
+}
+
+h2 {
+    margin-bottom: 10px;
+}
   
-  nav {
-    text-align: center;
-  }
+nav {
+    display: flex;  /* Makes navigation items behave as a row */
+    justify-content: center;  /* Centers navigation links */
+    align-items: center; /* Vertically centers navigation links */
+}
   
-  nav a {
+nav a {
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
     color: black;
-  }
+}
   
-  nav a:hover {
+nav a:hover {
     color: #007bff;
-  }
+}
   
-  main {
+main {
     padding: 20px;
-  }
+}
+
   
-  h2 {
-    margin-bottom: 10px;
-  }
-  
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  li {
+li {
     margin-bottom: 5px;
-  }
+}
   
-  .hero {
+.auth-btn {
+    background-color: transparent;  /* adjust background color */
+    border: 1px solid #ccc;  /* adjust border */
+    color: #000;  /* adjust text color */
+    padding: 5px 10px;  /* adjust padding */
+    margin-left: 10px;  /* adjust spacing */
+    cursor: pointer;  /* indicates clickable element */
+}
+  
+.auth-btn:hover {
+    background-color: #f2f2f2;  /* adjust hover background color */
+}
+
+.auth {
+    float: right;
+    list-style: none;  /* removes default bullet points */
+    margin: 0;  /* removes default margin */
+    padding: 0;  /* removes default padding */
+}
+
+.welcome {
     text-align: center;
-  }
+}
   
-  .hero h2 {
+.welcome h2 {
     margin-bottom: 20px;
-  }
+}
   
-  footer {
+footer {
     background-color: #f1f1f1;
     text-align: center;
     padding: 10px;
-  }
+}
   

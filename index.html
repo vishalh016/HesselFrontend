@@ -4,29 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hessel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <!-- <header class="header-container">
     <h1>Hessel</h1>
     <nav>
       <a href="menu.html">Menu</a>
       <a href="about.html">About</a>
       <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>
-      <ul class="auth">  <li><a href="login.html">Login</a></li>
-        <li><a href="signup.html">Signup</a></li>
-      </ul>
     </nav>
+    <button class="auth-btn"><a href="login.html">Login</a></button>
+    <button class="auth-btn"><a href="signup.html">Signup</a></button>
+    
+  </header> -->
+  <header class="header-container">
+    <img src="Requirements\hesselBG.jpg" alt="Hessel Logo" class="logo"> <nav class="mx-auto">  
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="auth-btn"><a href="login.html">Login</a></button>
+    <button class="auth-btn"><a href="signup.html">Signup</a></button>
   </header>
 
   <main>
-    <section class="hero">
-      <h2>MAKE YOUR EVENTS HASSLE-FREE</h2>
+    <section class="welcome">
+      <h1>HESSEL</h1>
+      <h4>Make your events HASSLE-FREE!!</h4>
       <p>Tired of your relatives asking "who catered this?" at your next event? Fear not! We're the caterers who'll have your guests saying "wow, this food is hotter than my Phupho's gossip!" We bring the real taste of Kolkata to your party, guaranteed to leave you sweating (from deliciousness, not the weather).</p>
       </section>
-
-    <section class="reservation">  <h2>Book Your Event</h2>
+<!-- Reservation form: later -->
+    <!-- <section class="reservation">  <h2>Book Your Event</h2>
       <p>Let us handle the food for your next gathering. Fill out the form below to get a quote and reserve your date.</p>
       <form action="reservation.php" method="post">  <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" required>
@@ -44,11 +56,12 @@
         <input type="text" id="occasion" name="occasion">  <br>
         <button type="submit">Get a Quote</button>
       </form>
-    </section>
+    </section> -->
+
   </main>
 
   <footer>
-    <p>&copy; Hessl</p>
+    <p>&copy; Hessel</p>
   </footer>
 </body>
 </html>
